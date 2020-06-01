@@ -1,0 +1,92 @@
+                        /* fonts */
+@font-face {
+    font-family: 'devroyeregular';
+    src: url('fonts/devroye_-webfont.woff2') format('woff2'),
+    url('fonts/devroye_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arizoniaregular';
+    src: url('fonts/arizonia-regular-webfont.woff2') format('woff2'),
+    url('fonts/arizonia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+                /*Arrière fond BODY*/
+body{
+    background-image: url("images/greyzz.png");
+    font-family: "Times New Roman", Arial, Serif,"sans-serif";
+    font-weight: normal;
+    font-size: 1.0rem;
+    color: #181818;
+}
+
+                        /*titles*/
+h1{
+    font-family:  devroyeregular, "Times New Roman", Arial, Serif, "sans-serif";
+    font-weight: normal;
+    font-size: 3.0rem;
+    margin-bottom: 0;
+}
+h2{
+    font-family: arizoniaregular, "Times New Roman", Arial, Serif, "sans-serif";
+    font-weight: normal;
+    font-size: 2.0rem;
+    margin-top: 0;
+}
+
+
+
+                        /*corps de page*/
+.contenue{
+    border: 1px solid black;
+    width: 1024px;
+    margin: auto;
+    text-align: justify;
+}
+
+                        /*tete de page*/
+header{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.profile{
+    width: 350px;
+    height: 250px;
+    background-color: rgba(176, 233, 234, 0.98);
+    border: 1px solid black;
+}
+hgroup{
+    width: 629px;
+    border: 1px solid black;
+    padding-left: 45px;
+}
+em {
+    color: rgba(176, 233, 234, 0.98);
+    font-style: normal;
+}
+span{
+    border-bottom: 1px solid rgba(176, 233, 234, 0.98) ;
+}
+
+                        /*main deux colonnes*/
+.milieu-de-pages{
+    display: flex;
+    flex-direction: row;
+}
+
+
+                        /*colonne droite*/
+.bloc-droite{
+    border: 1px solid black;
+    width: 350px;
+}
+                        /*colonne gauche*/
+main{
+    border: 1px solid black;
+    width: 629px;
+    padding-left: 45px;
+}
