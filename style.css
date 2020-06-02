@@ -36,6 +36,13 @@ h2{
     font-size: 2.0rem;
     margin-top: 0;
 }
+h3{
+    font-family: arizoniaregular, "Times New Roman", Arial, Serif, "sans-serif";
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+
 
 
 
@@ -83,7 +90,34 @@ span{
 .bloc-droite{
     border: 1px solid black;
     width: 350px;
+    background-color: rgba(176, 233, 234, 0.98);
+    display: flex;
+    flex-direction: column;
 }
+.title-de-droite{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    color: rgba(176, 233, 234, 0.98);
+}
+.info-contact li{
+    list-style-type: none;
+    height: 50px;
+}
+.info-a-propos{
+    flex: 1;
+}
+.icone{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 20px;
+}
+li .fas{
+    font-size: 2rem;
+    padding: 0 20px 0 20px;
+}
+
                         /*colonne gauche*/
 main{
     border: 1px solid black;
