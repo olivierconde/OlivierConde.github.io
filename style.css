@@ -6,6 +6,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'arizoniaregular';
     src: url('fonts/arizonia-regular-webfont.woff2') format('woff2'),
@@ -15,151 +16,191 @@
 }
 
                 /*Arrière fond BODY*/
-body{
+body {
     background-image: url("images/greyzz.png");
     font-family: "Times New Roman", Arial, Serif,"sans-serif";
     font-weight: normal;
-    font-size: 1.0rem;
+    font-size: 1rem;
     color: #181818;
+
 }
 
+
+
                         /*titles*/
-h1{
+h1 {
     font-family:  devroyeregular, "Times New Roman", Arial, Serif, "sans-serif";
     font-weight: normal;
-    font-size: 3.0rem;
+    font-size: 3rem;
     margin-bottom: 0;
 }
-h2{
+
+h2 {
     font-family: arizoniaregular, "Times New Roman", Arial, Serif, "sans-serif";
     font-weight: normal;
-    font-size: 2.0rem;
+    font-size: 2rem;
     margin-top: 0;
 }
-h3{
+
+h3 {
     font-family: arizoniaregular, "Times New Roman", Arial, Serif, "sans-serif";
     font-size: 1.8rem;
     font-weight: normal;
 }
 
+h4 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
 
-
+p {
+    text-align: justify;
+}
 
 
                         /*corps de page*/
-.contenue{
+/*.contenue {
     border: 1px solid black;
     width: 1024px;
     margin: auto;
     text-align: justify;
 }
-
+*/
                         /*tete de page*/
-header{
+header {
+    width: 1024px;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
-.profile{
+
+.profile {
     width: 350px;
     height: 250px;
     background-color: rgba(176, 233, 234, 0.98);
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
-figure{
+
+figure {
     text-align: center;
     padding-top: 30px;
 
 }
-img{
+
+img {
     border-radius: 50%;
     border: 2px solid black;
 
 }
-hgroup{
+
+.title {
     width: 629px;
-    border: 1px solid black;
-    padding-left: 45px;
+    /*border: 1px solid black;*/
+    padding: 35px 0  0 45px;
 }
+
 em {
     color: rgba(176, 233, 234, 0.98);
     font-style: normal;
 }
-span{
-    border-bottom: 1px solid rgba(176, 233, 234, 0.98) ;
+
+span {
+    border-bottom: 1px solid rgba(176, 233, 234, 0.98);
 }
 
                         /*main deux colonnes*/
-.milieu-de-pages{
+.milieu-de-pages {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    width: 1024px;
+    margin: auto;
 }
 
-
                         /*colonne gauche*/
-.bloc-gauche{
-    border: 1px solid black;
+.bloc-gauche {
+    /*border: 1px solid black;*/
     width: 350px;
     background-color: rgba(176, 233, 234, 0.98);
     display: flex;
     flex-direction: column;
 }
-.title-de-gauche{
+
+.title-de-gauche {
     background-color: black;
     text-align: center;
     padding: 5px;
     color: rgba(176, 233, 234, 0.98);
 }
-.text-a-propos{
+
+.text-a-propos {
     padding: 0 20px 0 20px;
 }
-.info-contact li{
+
+.info-contact li {
     list-style-type: none;
     height: 50px;
 }
-.info-a-propos{
+
+.info-a-propos {
     flex: 1;
 }
-.icone{
+
+.icone {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
-li .fas{
+
+li .fas {
     font-size: 2rem;
-    padding: 0 20px 0 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-left: 30px;
+    overflow: hidden;
+    padding: 4px;
 }
 
 
                         /*colonne droite*/
-main{
-    border: 1px solid black;
+main {
     width: 629px;
     padding-left: 45px;
 }
-h3 .fas{
+
+h3 .fas {
     margin-right: 30px;
+    color:rgba(176, 233, 234, 0.98) ;
 }
-.bordure-des-titles{
-    border-bottom: 2px solid rgba(176, 233, 234, 0.98) ;
+
+.bordure-des-titles {
+    border-bottom: 2px solid rgba(176, 233, 234, 0.98);
 }
                         /*table*/
-
-td{
-    border: 1px solid black;
-
-
+td {
+    vertical-align: top;
 }
-.date{
-    width: 100px;
 
+.icone-ronde{
+    width: 20px;
 }
-li{
+
+.date {
+    width: 150px;
+    vertical-align: top;
+}
+
+li {
     list-style-type: none;
 }
 
+td .far, td .fas{
+    color: rgba(176, 233, 234, 0.98);
+    font-size:0.7rem;
+}
+
                         /*recommandations*/
-address{
+address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
