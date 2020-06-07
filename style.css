@@ -171,6 +171,7 @@ h3 .fas {
                         /*table*/
 td {
     vertical-align: top;
+    border: 2px solid black;
 }
 
 .icone-ronde{
@@ -216,13 +217,17 @@ address {
         flex-direction: column;
         width: auto;
     }
-    
+
     .milieu-de-pages {
         flex-direction: column-reverse;
+    }
+    main {
+       padding:0;
     }
     td {
         display: flex;
         flex-direction: column;
+        margin: 0;
     }
     .icone{
         justify-content: center;
